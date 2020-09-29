@@ -25,6 +25,7 @@ img {
 
 header {
   background-image: url("../images/anchors.svg");
+  background-color: #1e7c74;
   color: #fff;
   font-size: 1.125rem;
   font-style: normal;
@@ -44,6 +45,10 @@ header p {
 
 article div {
   padding: 1rem;
+}
+
+article div:first-child {
+  padding: 0;
 }
 
 article header {
@@ -86,7 +91,7 @@ nav a {
   border: 0;
   border-radius: 6px;
   color: #fff;
-  padding: 0.5rem;
+  padding: .5rem;
   width: 2.5rem;
   height: 2.5rem;
 }
@@ -161,5 +166,6 @@ footer {
   justify-content: center;
   padding: 1rem;
   background-image: url("../images/anchors.svg");
+  background-color: #1e7c74;
   color: #fff;
 }
